@@ -2,56 +2,49 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Karollyne  | Developer', // e.g: 'Name | Developer'
+  lang: 'pt', // e.g: en, es, fr, jp
+  description: 'Bem-vindo ao meu primeiro Portfólio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'FullStack',
+  name: 'Karollyne Costa',
+  subtitle: 'Desenvolvedora Jr em JavaScript.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'me.jpg',
+  paragraphOne: 'Estudante de Desenvolvimento FullStack',
+  paragraphTwo:
+    '25 anos, graduada em Gestão de TI e Pós-Graduada em Gestão e Segurança de Redes de Computadores. Há cerca de 2 anos foquei meus estudos em desenvolvimento web, desenvolvendo novas habilidates com novas tecnologias.',
+  paragraphThree: 'Humildade para aprender, altivez para conquistar os objetivos.',
+  resume: 'https://github.com/karollynecosta', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'gobarber.jpg',
+    title: 'ReactJS',
+    info:
+      'Projeto desenvolvido na plataforma de estudos Rocketseat, onde são aplicados as ultimas atualizações da tecnologia, com backend em NodeJS',
+
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/karollynecosta/gobarber', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'tdd.jpg',
+    title: 'Test Driven Development',
+    info:
+      'O estudo do Desenvolvimento Orientado por Testes(TDD) demonstra que é possível sim entregar um projeto sem surpresas em relação as funcionalidades.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/karollynecosta?tab=repositories', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +52,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'karolcosta2@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +60,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/_karolcosta/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/karollyne-costa-2a185aa7/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/karollynecosta',
     },
   ],
 };
